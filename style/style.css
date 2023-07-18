@@ -470,6 +470,13 @@ form button {
   margin: 40px;
 }
 
+.container2 {
+  width: 200px;
+  height: 100px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
 .ball {
   width: 10px;
   height: 10px;
