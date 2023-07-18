@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header style="background-color: black">
+      <div class="burger-menu">
+        <div class="burger-menu__content">
+          <span class="btn__close_burger">Закрыть</span>
+          <!-- <img
+                  src=""
+                  alt="error"
+                  class="burger-menu__btn-close"
+                /> -->
+
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item">
+              <a href="#about-me" style="text-decoration: none; color: white"
+                >Главная</a
+              >
+            </li>
+            <li class="burger-menu__item">
+              <a href="#my-skills" style="text-decoration: none; color: white"
+                >Способности</a
+              >
+            </li>
+            <li class="burger-menu__item">
+              <a href="#my-photo" style="text-decoration: none; color: white"
+                >Портфолио</a
+              >
+            </li>
+            <li class="burger-menu__item">
+              <a href="#h2-facts" style="text-decoration: none; color: white"
+                >Хобби</a
+              >
+            </li>
+            <li class="burger-menu__item">
+              <a href="#contact-me" style="text-decoration: none; color: white"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <div class="logo">Атай</div>
+        <ul>
+          <li>
+            <a href="./index.html" target="_blank" style="text-decoration: none"
+              >Главная</a
+            >
+          </li>
+          <li>
+            <a href="#my-skills" style="text-decoration: none">Способности</a>
+          </li>
+          <li>
+            <a href="#my-photo" style="text-decoration: none">Портфолио</a>
+          </li>
+          <li><a href="#h2-facts" style="text-decoration: none">Хобби</a></li>
+          <li>
+            <a href="#contact-me" style="text-decoration: none">Контакты</a>
+          </li>
+        </ul>
+        <img
+          src="./images/navbar_btn.svg"
+          alt="error"
+          class="navbar__btn_burger"
+        />
+      </nav>
+    </header>
+    <div class="container">
+      <div class="main-hero2">
+        <h1>Возможности:</h1>
+        <div><img src="./images/screen.png" style="width: 100%" alt="" /></div>
+        <div><img src="./images/screen2.png" style="width: 100%" alt="" /></div>
+        <div><img src="./images/screen3.png" style="width: 100%" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="traffic-light">
+      <div class="circle red"></div>
+      <div class="circle yellow"></div>
+      <div class="circle green"></div>
+    </div>
+
+    <script>
+      let burgerMenu = document.querySelector(".burger-menu");
+      let btnBurger = document.querySelector(".navbar__btn_burger");
+      let btnClose = document.querySelector(".btn__close_burger");
+
+      btnBurger.addEventListener("click", () => {
+        burgerMenu.style.display = "block";
+      });
+
+      btnClose.addEventListener("click", () => {
+        burgerMenu.style.display = "none";
+      });
+    </script>
+  </body>
+</html>

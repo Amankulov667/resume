@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-- Header start -->
+    <header   style="background-color: black;">
+      <div class="burger-menu">
+        <div class="burger-menu__content">
+          <span class="btn__close_burger">Закрыть</span>
+          <!-- <img
+                src=""
+                alt="error"
+                class="burger-menu__btn-close"
+              /> -->
+          
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item"><a href="#about-me" style="text-decoration: none; color: white;" >Главная</a></li>
+            <li class="burger-menu__item"><a href="#my-skills" style="text-decoration: none; color: white;">Способности</a></li>
+            <li class="burger-menu__item"><a href="#my-photo" style="text-decoration: none; color: white;">Портфолио</a></li>
+            <li class="burger-menu__item"><a href="#h2-facts" style="text-decoration: none; color: white;">Хобби</a></li>
+            <li class="burger-menu__item"><a href="#contact-me" style="text-decoration: none; color: white;">Контакты</a></li>
+           
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <div class="logo">Атай</div>
+        <ul>
+          <li><a href="#about-me" style="text-decoration: none">Главная</a></li>
+          <li>
+            <a href="#my-skills" style="text-decoration: none">Способности</a>
+          </li>
+          <li>
+            <a href="#my-photo" style="text-decoration: none">Портфолио</a>
+          </li>
+          <li><a href="#h2-facts" style="text-decoration: none">Хобби</a></li>
+          <li>
+            <a href="#contact-me" style="text-decoration: none">Контакты</a>
+          </li>
+          <li><a href="./second.html" target="_blank" id="possible" style="text-decoration: none">Возможности</a></li>
+        </ul>
+        <img
+          src="./images/navbar_btn.svg"
+          alt="error"
+          class="navbar__btn_burger"
+        />
+      </div>
+      </nav>
+    </header>
+    <!-- Header end -->
+    <!-- Hero start -->
+    <div class="container">
+      <section class="container__hero">
+        <div class="hero__left">
+          <div class="img__main">
+            <img src="./images/hero.jpg" alt="photo" />
+          </div>
+        </div>
+        <div class="hero__right">
+          <h1 id="about-me">Обо мне:</h1>
+          <ul>
+            <li>Имя: Атай</li>
+            <li>Фамилия: Аманкулов</li>
+            <li>Возраст: 21</li>
+            <li>Группа крови: вторая положительная</li>
+            <p>
+              Меня зовут Атай Аманкулов. Я хочу стать frontend разработчиком,
+              почему именно фронт? Потому что на мой взгляд это самая интересная
+              и волнующая профессия
+            </p>
+          </ul>
+        </div>
+        <hr style="color: white; margin-left: 20px" />
+      </section>
+      <hr style="color: white" class="hr" />
+
+      <!-- Hero end -->
+      <!-- Skills start -->
+      <section class="skills">
+        <h2 id="my-skills">Способности</h2>
+        <div class="cards">
+          <div class="card">
+            <img
+              class="card-photo"
+              src="./icons/free-icon-font-users-alt-5069162.svg"
+              alt="solution"
+            />
+            <p>Высокие soft skills</p>
+            <hr class="max" style="width: 15%" />
+            <span>15%</span>
+          </div>
+          <div class="card-2">
+            <img
+              class="card-photo"
+              src="./icons/free-icon-font-heart-3916579.svg"
+              alt="security"
+            />
+            <p>Любовь к работе</p>
+            <hr style="width: 50%" />
+            <span>50%</span>
+          </div>
+          <div class="card-3">
+            <img
+              class="card-photo"
+              src="./icons/free-icon-font-clock-3917267.svg"
+              alt="expertise"
+            />
+            <p>Саморазвитие</p>
+            <hr style="width: 76%" />
+            <span>76%</span>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img
+              class="card-photo"
+              src="./icons/free-icon-font-dollar-3916676.svg"
+              alt="solution"
+            />
+            <p>Ответсвенный подход к работе</p>
+            <hr style="width: 83%" />
+            <span>83%</span>
+          </div>
+          <div class="card-2">
+            <img
+              class="card-photo"
+              src="./icons/free-icon-font-search-3917061.svg"
+              alt="security"
+            />
+            <p>Адаптивность</p>
+            <hr style="width: 67%" />
+            <span>67%</span>
+          </div>
+          <div class="card-3">
+            <img
+              class="card-photo"
+              src="./icons/free-icon-font-world-3916979.svg"
+              alt="expertise"
+            />
+            <p>Разносторонность</p>
+            <hr style="width: 36%" />
+            <span>36%</span>
+          </div>
+        </div>
+        <hr style="color: white" class="hr" />
+      </section>
+      <!-- Skills end -->
+
+      <!-- Pordfolio start -->
+      <section class="portfolio">
+        <div class="portfolio__title"><h2 id="my-photo">Портфолио</h2></div>
+        <div class="photos">
+          <img src="./images/1.jpg" alt="Человек" class="scale" />
+          <img src="./images/2.jpg" alt="Человек" class="scale" />
+          <img src="./images/3.jpg" alt="Человек" class="scale" />
+          <img src="./images/4.jpg" alt="Человек" class="scale" />
+          <img src="./images/5.jpg" alt="Человек" class="scale" />
+          <img src="./images/6.jpg" alt="Человек" class="scale" />
+        </div>
+        <hr style="color: white" class="hr" />
+      </section>
+      <!-- Portfolio end -->
+
+      <!-- Hobby start -->
+      <section class="info-facts">
+        <div class="facts-title">
+          <h2 id="h2-facts">Хобби:</h2>
+        </div>
+        <div class="fact1">
+          <div class="fact1 anime">
+            <h3>Аниме</h3>
+            <p>Смотрю аниме с самого детства,посмотрел около 200 аниме</p>
+            <h4>Доп факт:</h4>
+            <p>Любимый персонаж: Итачи</p>
+            <img
+              src="https://w0.peakpx.com/wallpaper/932/609/HD-wallpaper-itachi-blood-moon-itachi-uchiha-naruto-red.jpg"
+              alt="itachi"
+              class="img__itachi"
+            />
+          </div>
+
+          <div class="fact1 ufc">
+            <h3>Ufc</h3>
+            <p>Увлекаюсь просмотром UFC, смотрю почти все главные турниры</p>
+            <h4>Доп факт:</h4>
+            <p>Любимый боец: Хабиб</p>
+            <img
+              src="https://cdn-sfo.socy.cloud/PRAS/v1/_20/p/202206/upload/PRAS/uf_1656424683kgSavnn0zmC0yPIFZlx0anzZI7.jpg"
+              alt="khabib"
+            />
+          </div>
+        </div>
+        <div class="facts-title">
+          <h2 id="h2-facts">Интересные факты:</h2>
+        </div>
+        <div class="fact1">
+          <div class="fact1 anime">
+            <h3>Танцы</h3>
+            <p>
+              Танцевал в студии MDA,
+              <br />
+              Стиль крамп
+            </p>
+            <h4>Доп факт:</h4>
+            <p>Занимался танцами 2-3 года</p>
+            <img
+              src="https://dancebibles.com/wp-content/uploads/2020/03/What-is-KRUMP-scaled.jpg"
+              alt="itachi"
+              class="img__krump"
+            />
+          </div>
+          <div class="fact1 ufc">
+            <h3>Плавание</h3>
+            <p>
+              Занимался спортом<br />
+              А именно Самбо, плавание
+            </p>
+            <h4>Доп факт:</h4>
+            <p>В общей сложности проходил лет 5</p>
+            <img
+              src="https://fastswimming.ru/sites/default/files/articles/4-800x800.jpg"
+              alt="khabib"
+            />
+          </div>
+        </div>
+        <hr style="color: white" class="hr" />
+      </section>
+      <!-- hobby end -->
+
+      <!-- Contact start -->
+      <section class="contact">
+        <div class="contact_main">
+          <div class="send">
+            <form>
+              <h3 id="contact-me">Связаться со мной:</h3>
+              <input type="text" placeholder="Имя" />
+              <input type="text" placeholder="Фамилия" />
+              <input type="tel" placeholder="Номер телефона" />
+              <input type="text" placeholder="Сообщение" class="message" />
+              <button>Отправить</button>
+            </form>
+          </div>
+          <div class="social__media">
+            <h4>Адрес:</h4>
+            <p>11-14-49 г.Бишкек</p>
+            <h4>Номер телефона:</h4>
+            <p>+996-555-29-05-02</p>
+            <h4>Почта:</h4>
+            <p>kirito29050213<br />@gmail.com</p>
+            <h4>Социальные сети:</h4>
+            <div class="icons-a">
+              <a href="https://www.instagram.com/a_amnklv/"
+                ><img
+                  src="./images/free-icon-font-instagram-6422200.svg"
+                  alt=""
+              /></a>
+              <a href="https://t.me/a_amnklv"
+                ><img
+                  src="./images/free-icon-font-paper-plane-3917567.svg"
+                  alt=""
+              /></a>
+              <a href="https://api.whatsapp.com/send?phone=996555290502"
+                ><img src="./images/free-icon-font-whatsapp-6422213.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact end -->
+   
+
+    <!-- footer start -->
+    <footer>
+      <nav>
+        <div class="logo">Атай</div>
+        <ul>
+          <li><a href="#about-me" style="text-decoration: none">Главная</a></li>
+          <li>
+            <a href="#my-skills" style="text-decoration: none">Способности</a>
+          </li>
+          <li>
+            <a href="#my-photo" style="text-decoration: none">Портфолио</a>
+          </li>
+          <li><a href="#h2-facts" style="text-decoration: none">Хобби</a></li>
+          <li>
+            <a href="#contact-me" style="text-decoration: none">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- footer end -->
+</div>
+<script>
+    let burgerMenu = document.querySelector(".burger-menu");
+    let btnBurger = document.querySelector(".navbar__btn_burger");
+    let btnClose = document.querySelector(".btn__close_burger");
+
+    btnBurger.addEventListener("click", () => {
+      burgerMenu.style.display = "block";
+    });
+
+    btnClose.addEventListener("click", () => {
+      burgerMenu.style.display = "none";
+    });
+  </script>
+  </body>
+</html>
