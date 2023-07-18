@@ -482,6 +482,7 @@ form button {
   height: 10px;
   margin: 10px auto;
   border-radius: 50px;
+  background-color: #FF0000;
 }
 
 .ball:nth-child(1) {
